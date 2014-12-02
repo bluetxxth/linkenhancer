@@ -37,11 +37,10 @@ or
 Clone from GitHub
 
 Install:
-Downlod and extract the copy from the link above into your js folder
-Place the code script reference below right after the footer
-<script src="your/path/to/the/linkenhancer.jquery.min.js"></script>
-Copy the lines below and paste it in your main.js file
-
+1.Downlod and extract the copy from the link above into your js folder
+2.Place the code script reference below right after the footer
+  <script src="your/path/to/the/linkenhancer.jquery.min.js"></script>
+3Copy the lines below and paste it in your main.js file
 /**
 * Adjust your settings here
 */
@@ -50,10 +49,10 @@ $(document).ready(function(){
    $('.references') /*set target here*/
   .linkEnhancer('open-sans' ); /*set options here*/
 });
+
 Note: the two commented lines indicate the places where you can customize
 
 In the line starting with .linkEnhancer('open-sans') there is only one option set but you can set more or none at all, in which case the plugin will use its defaults.
 
 Example:
-
 linkEnhancer('orange','white','80px','bauhaus', '900','magenta');
